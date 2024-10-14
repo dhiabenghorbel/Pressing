@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const clients = new Schema({
   createdAt: { type: String },
-
   nom: { type: String },
   prenom: { type: String },
   genre: { type: String },
